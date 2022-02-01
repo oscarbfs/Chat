@@ -20,6 +20,12 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need access to let you pick an image. </string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need access to let you pick an image. </string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need access to let you pick an image. </string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
