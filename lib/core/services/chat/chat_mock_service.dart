@@ -8,27 +8,27 @@ import 'package:chat/core/services/chat/chat_service.dart';
 class ChatMockService implements ChatService {
   static final List<ChatMessage> _msgs = [
     ChatMessage(
-      id: 'id1',
-      text: 'Bom dia',
+      id: '1',
+      text: 'Bom dia us cara!',
       createdAt: DateTime.now().toString(),
-      userId: '123',
-      userName: 'Teste',
+      userId: '1',
+      userName: 'Elivandro',
       userImageURL: 'assets/images/avatar.png',
     ),
     ChatMessage(
       id: 'id2',
-      text: 'Bom dia',
+      text: 'Bom dia brother',
       createdAt: DateTime.now().toString(),
       userId: '1234',
-      userName: 'Teste1',
+      userName: 'Afonso',
       userImageURL: 'assets/images/avatar.png',
     ),
     ChatMessage(
       id: 'id3',
-      text: 'Bom dia',
+      text: 'Bom dia, tudo bem com vcs?',
       createdAt: DateTime.now().toString(),
       userId: '12345',
-      userName: 'Teste2',
+      userName: 'Luiz',
       userImageURL: 'assets/images/avatar.png',
     ),
   ];
