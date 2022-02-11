@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "303881819606",
+    "project_id": "chat-64272",
+    "storage_bucket": "chat-64272.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303881819606:android:d0fe0b004d7fefc285c077",
+        "android_client_info": {
+          "package_name": "br.com.oscar.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303881819606-nsfhvs2j13bnn32rs1c578ktpp2lh07l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3oUjEiWLkZaOVEDKT0fEbW0kjggvUaFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303881819606-nsfhvs2j13bnn32rs1c578ktpp2lh07l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
