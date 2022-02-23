@@ -3,7 +3,7 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 
 class ChatNotificationService with ChangeNotifier {
-  List<ChatNotification> _items = [];
+  final List<ChatNotification> _items = [];
 
   int get itemsCount {
     return _items.length;
@@ -24,7 +24,6 @@ class ChatNotificationService with ChangeNotifier {
   }
 
   // Push Notification
-
   Future<void> init() async {
     await _configureForeground();
     await _configureBackground();
@@ -59,11 +58,10 @@ class ChatNotificationService with ChangeNotifier {
 
   void _messageHandler(RemoteMessage? msg) {
     if (msg == null || msg.notification == null) return;
-    add(
-      ChatNotification(
-        title: msg.notification!.title ?? 'Não informado!',
-        body: msg.notification!.body ?? 'Não informado!',
-      ),
-    );
+
+    add(ChatNotification(
+      title: msg.notification!.title ?? 'Não informado!',
+      body: msg.notification!.body ?? 'Não informado!',
+    ));
   }
 }
